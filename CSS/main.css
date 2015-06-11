@@ -9,7 +9,7 @@ body {
 }
 
 table {
-  max-width: 2000px;
+  width: 80%;
   margin: 10px auto;
 }
 
@@ -25,7 +25,7 @@ thead th {
 
 tr {
   border-bottom: 1px solid #FFF;
-  margin-bottom: 5px;
+  margin-bottom: 1px;
 }
 
 td {
@@ -34,6 +34,7 @@ td {
 }
 
 tr:nth-child(even) {
+  /* from color palette - way to set with out JS? */
   background: #FFE0CC;
 }
 
@@ -51,6 +52,10 @@ tfoot td {
   padding: 10px 2px;
   font-size: 0.8em;
   font-style: italic;
+}
+
+div.tip {
+  color: black;
 }
 
 div.tip span {
