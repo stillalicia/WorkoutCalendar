@@ -1,0 +1,72 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+table {
+  max-width: 2000px;
+  margin: 10px auto;
+}
+
+caption {
+  font-size: 1.6em;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+thead th {
+  font-weight: 400;
+}
+
+tr {
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+td {
+  border-right: 1px solid #FFF;
+  vertical-align: top;
+}
+
+tr:nth-child(even) {
+  background: #FFE0CC;
+}
+
+th, td {
+  text-align: left;
+  padding: 20px;
+  font-weight: 300;
+}
+
+tfoot tr {
+  background: none;
+}
+
+tfoot td {
+  padding: 10px 2px;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+div.tip span {
+  display: none;
+}
+
+div.tip:hover {
+  position: relative;
+}
+
+div.tip:hover span {
+  border: #c0c0c0 1px;
+  padding: 5px;
+  display: block;
+  z-index: 100;
+  max-width: 250px;
+  position: absolute;
+  background: white;
+}

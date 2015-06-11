@@ -1,0 +1,85 @@
+/*
+  Color Settings
+*/
+
+/*
+  From Adobe Color CC
+  Palette: June 2015 - Through the Savannah
+*/
+.color-primary-1 {
+  color: #F53420;
+}
+.bkgrnd-primary-1 {
+  background: #F53420;
+}
+
+.color-primary-0 {
+  color: #F36E20;
+}
+.bkgrnd-primary-0 {
+  background: #F36E20;
+}
+
+.color-primary-2 {
+  color: #F19520;
+}
+.bkgrnd-primary-2 {
+  background: #F19520;
+}
+
+.color-primary-3 {
+  color: #F19520;
+}
+.bkgrnd-primary-3 {
+  background: #F19520;
+}
+
+.color-primary-4 {
+  color: #F19520;
+}
+.bkgrnd-primary-4 {
+  background: #F19520;
+}
+
+/*
+  From paletton
+  Adding complement and light/dark to primary-0 color
+*/
+
+.color-complement-0 {
+  color: #159E7C;
+}
+.bkgrnd-complement-0 {
+  background: #159E7C;
+}
+
+.color-complement-0-light {
+  color: #58BFA5;
+}
+.bkgrnd-complement-0-light {
+  background: #58BFA5;
+}
+
+.color-complement-0-dark {
+  color: #00674D;
+}
+.bkgrnd-complement-0-dark {
+  background: #00674D;
+}
+
+.color-primary-0-light {
+  color: #FFA875;
+}
+.bkgrnd-primary-0-light {
+  background: #FFA875;
+}
+
+.color-primary-0-dark {
+  color: #9E3B00;
+}
+.bkgrnd-primary-0-dark {
+  background: #9E3B00;
+}
+
+/*
+*/
