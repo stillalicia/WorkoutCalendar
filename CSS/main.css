@@ -73,5 +73,13 @@ div.tip:hover span {
   z-index: 100;
   max-width: 250px;
   position: absolute;
-  background: white;
+  background: #159E7C;
+  color: white;
+  font-size: 75%;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
